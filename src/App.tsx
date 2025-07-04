@@ -3,6 +3,7 @@ import './App.css';
 import PerguntasCertificacao from './components/PerguntasCertificacao';
 import Simulado from './components/Simulado';
 import { Certificacao } from './perguntasAWS';
+import Footer from './components/Footer';
 
 const certificacoes: Certificacao[] = [
   'Cloud Practitioner',
@@ -80,6 +81,7 @@ function App() {
       ) : (
         <PerguntasCertificacao certificacao={selecionada} />
       )}
+      <Footer />
     </div>
   );
 }
