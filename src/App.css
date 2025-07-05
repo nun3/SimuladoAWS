@@ -11,6 +11,7 @@ body, html, #root, .App {
   max-width: 700px;
   margin: 0 auto;
   padding: 32px 16px;
+  padding-bottom: 80px; /* Espaço extra para o rodapé fixo */
 }
 
 h1 {
@@ -129,6 +130,7 @@ input[type="checkbox"], input[type="radio"] {
 @media (max-width: 600px) {
   .App {
     padding: 8px 2px;
+    padding-bottom: 90px; /* Mais espaço para rodapé em telas pequenas */
   }
   .pergunta-card {
     padding: 10px 2px;
